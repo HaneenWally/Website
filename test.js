@@ -15,7 +15,7 @@ const levelMapping = [
 	'ansi256'
 ];
 
-// const styles = Object.create(null);
+const styles = Object.create(null);
 
 const applyOptions = (object, options = {}) => {
 	if (options.level && !(Number.isInteger(options.level) && options.level >= 0 && options.level <= 3)) {
