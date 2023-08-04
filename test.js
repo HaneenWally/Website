@@ -12,11 +12,11 @@ const {isArray} = Array;
 const levelMapping = [
 	'ansi',
 	'ansi',
-	'ansi256'
+	'ansi256',
+	'ansi16m'
 ];
 
-
-
+const styles = Object.create(null);
 
 const applyOptions = (object, options = {}) => {
 	if (options.level && !(Number.isInteger(options.level) && options.level >= 0 && options.level <= 3)) {
