@@ -12,8 +12,7 @@ const {isArray} = Array;
 const levelMapping = [
 	'ansi',
 	'ansi',
-	'ansi256',
-	'ansi16m'
+	'ansi256'
 ];
 
 const styles = Object.create(null);
