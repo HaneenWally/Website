@@ -15,7 +15,6 @@ const levelMapping = [
 	'ansi256'
 ];
 
-const styles = Object.create(null);
 
 
 
