@@ -35,6 +35,8 @@ class ChalkClass {
 	}
 }
 
+
+
 const chalkFactory = options => {
 	const chalk = {};
 	applyOptions(chalk, options);
